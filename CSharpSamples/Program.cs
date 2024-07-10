@@ -19,6 +19,9 @@ foreach (Type type in Assembly.GetExecutingAssembly().GetTypes())
         catch (Exception e)
         {
             Log.WriteLine(e);
+            Log.WriteLine(string.Empty);
+            Log.WriteLine(string.Empty);
+            Log.WriteLine(string.Empty);
         }
     }
 }
